@@ -1,0 +1,38 @@
+@media (max-width: 599px) {
+    .menu {
+        display: none;
+    }
+    .image-burger-menu {
+        display: initial;
+    }
+} 
+
+@media (min-width: 600px) {
+    .menu__link {
+        font-size: 15px;
+        color:blue;
+    }
+    .image-burger-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 800px) {
+    .menu__link {
+        font-size: 20px;
+        color:red;
+    }
+    .image-burger-menu {
+        display: none;
+    }
+}
+
+@media (min-width: 1000px) {
+    .menu__link {
+        font-size: 25px;
+        color:green;
+    }
+    .image-burger-menu {
+        display: none;
+    }
+}
